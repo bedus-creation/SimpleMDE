@@ -1,4 +1,4 @@
-### SimpleMDE with image upload.
+### Simple markup editor for vue js based on SimpleMDE with image upload.
 
 ![ScreenShot](https://raw.githubusercontent.com/bedus-creation/SimpleMDE/master/docs/img/image-01.png)
 
