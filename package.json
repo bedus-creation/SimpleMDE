@@ -1,6 +1,6 @@
 {
     "name": "simplemde-vue",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "SimpleMDE with Image upload",
     "main": "simplemde-vue.js",
     "scripts": {
