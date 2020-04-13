@@ -1,11 +1,11 @@
 {
-  "name": "simplemde-vue",
-  "version": "0.1.1",
-  "description": "SimpleMDE with Image upload",
-  "main": "simplemde-vue.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "simplemde-vue",
+    "version": "0.1.1",
+    "description": "SimpleMDE with Image upload",
+    "main": "simplemde-vue.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
 }
