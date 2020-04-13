@@ -14,10 +14,17 @@
 <script>
 import SimpleMDE from "simplemde";
 import { FileUpload } from "../mixins/Fileupload";
-import toolbar from "../config/toolbar";
+import detaultToolbar from "../config/toolbar";
 import axios from "axios";
 export default {
-  props: { toolbar: { default: toolbar }, imageUploadUrl: {} },
+  props: {
+    toolbar: {
+      default: function() {
+        return detaultToolbar;
+      }
+    },
+    imageUploadUrl: {}
+  },
   mixins: [FileUpload]
 };
 </script>
