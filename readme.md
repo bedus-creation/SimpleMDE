@@ -1,6 +1,6 @@
 ### SimpleMDE with image upload.
 
-![ScreenShot](https://raw.githubusercontent.com/bedus-creation/SimpleMDE/tree/master/docs/img/image-01.png)
+![ScreenShot](https://raw.githubusercontent.com/bedus-creation/SimpleMDE/master/docs/img/image-01.png)
 
 ### Installation
 ```
