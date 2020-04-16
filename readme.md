@@ -10,7 +10,7 @@ npm i simplemde-vue --save
 ### Example
 ```vue
 <template>
-  <editor imageUploadUrl="/admin/upload/image" @ImageUploadSuccess="ImageUploadSuccess"></editor>
+  <editor name="description" imageUploadUrl="/admin/upload/image" @ImageUploadSuccess="ImageUploadSuccess"></editor>
 </template>
 <script>
 import Editor from "simplemde-vue";
