@@ -8,7 +8,7 @@
       style="display:none"
       v-on:change="handleFilesUpload()"
     />
-    <textarea id="_editor"></textarea>
+    <textarea id="_editor" :name="name"></textarea>
   </div>
 </template>
 <script>
@@ -23,7 +23,11 @@ export default {
         return detaultToolbar;
       }
     },
-    imageUploadUrl: {}
+    imageUploadUrl: {},
+    name: {
+      type: String,
+      default: "_name"
+    }
   },
   mixins: [FileUpload]
 };
